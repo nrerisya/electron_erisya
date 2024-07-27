@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="container">
+            <form id="loginForm">
+                <legend>Sign In to Your Dashboard</legend>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign In</button>
+            </form>
+            <div id="error-message"></div>
+        </div>  
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
